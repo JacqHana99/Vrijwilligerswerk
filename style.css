@@ -9,7 +9,7 @@ body {
   text-align: center;
   background: url('v.png'), lightpink;
   color: white;
-  font-size: 15px;
+  font-size: 15px 15px;
   background-repeat: no-repeat no-repeat;
   background-attachment: fixed fixed;
   background-size: 300px 150px;
