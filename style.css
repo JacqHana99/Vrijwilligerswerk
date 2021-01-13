@@ -3,15 +3,18 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin:auto;
+  display:block;
 }
 .header {
   padding: 35px;
   text-align: center;
   background: lightpink;
   color: white;
-  font-size: 15px;
-  background-repeat:  no-repeat;
+  font-size: 15px 15px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 300px 150px;
 }
 
 /* Style the button that is used to open and close the collapsible content */
