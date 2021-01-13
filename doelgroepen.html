@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ideeën voor vrijwilligerswerk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Ideeën voor vrijwilligerswerk</h1>
+    </div>
+    <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="doelgroepen.html">doelgroepen</a>
+            <a href="contact.html">Contact</a>
+    </div>
+    <h2 style="text-align: center;">Doelgroepen</h2>
+    <button type="button" class="collapsible">Kinderen</button>
+    <div class="content">
+        <p>Nu de basisscholen tot in ieder geval 9 februari (of misschien wel langer) gesloten blijven, volgen de basisschoolleerlingen 
+            het onderwijs online vanuit huis. Niet elke basisschool biedt hulp aan voor alle leerstof en de kinderen gaan vooral 
+            zelfstandig te werk aan de hand van een gemaakte planning door de meester of juf. Maar hoe moet het kind het voor 
+            elkaar krijgen zijn huiswerk te voltooien als hij iets niet snapt en zijn ouders te druk bezig zijn met hun werk of niet 
+            voldoende kennis van de Nederlandse taal bezitten om begeleiding te kunnen bieden?</p>
+            <a href='kinderen.html'>Meer</a>
+    </div>
+    <button type="button" class="collapsible">Kwetsbare en eenzame mensen</button>
+    <div class="content">
+        <p>Het is ongetwijfeld voor iedereen nu een zware tijd. Voorheen kregen grootouders kleinkinderen op bezoek, jongeren 
+            spraken af en gingen naar evenementen en ook volwassenen die nu vanuit huis werken, hebben minder contact met hun collega’s. 
+            Je kunt met zekerheid zeggen dat mensen in een sociaal isolement terechtkomen.</p>
+        <a href='ouderen.html'>Meer</a>
+    </div>
+    <button type="button" class="collapsible">Vluchtelingen</button>
+    <div class="content">
+        <p>Nederland kent tienduizenden vluchtelingen. Niet elke vluchteling heeft zich volledig kunnen integreren. Een van 
+            de belangrijkste fundamenten is het leren van de Nederlandse taal. Nu met corona en minder fysieke begeleiding is 
+            dit een belangrijk punt waar deze vluchtelingen op vastlopen. Hoe kunnen zij anders een studie volgen, een huis krijgen
+             en een toekomst ontwikkelen?</p>
+        <a href='vluchtelingen.html'>Meer</a>
+    </div>
+    <button type="button" class="collapsible">Arme mensen</button>
+    <div class="content">
+        <p>Momenteel is dit nog niet uitgewerkt</p>
+    </div>
+    <button type="button" class="collapsible">Mensen met een depressie</button>
+    <div class="content">
+        <p>Momenteel is dit nog niet uitgewerkt</p>
+    </div>
+    <button type="button" class="collapsible">Mensen met een stoornis/psychische aandoening</button>
+    <div class="content">
+        <p>Momenteel is dit nog niet uitgewerkt</p>
+    </div>
+    <button type="button" class="collapsible">Mensen met een verstandelijke beperking</button>
+    <div class="content">
+        <p>Momenteel is dit nog niet uitgewerkt</p>
+    </div>
+    <button type="button" class="collapsible">Ouderen//Bejaarden</button>
+    <div class="content">
+        <p>Momenteel is dit nog niet uitgewerkt</p>
+    </div>
+    <button type="button" class="collapsible">Zieken</button>
+    <div class="content">
+        <p>Momenteel is dit nog niet uitgewerkt</p>
+    </div>
+    <br> <br> <br>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+        <div class="footer">
+            <h5>Mary adib & Jacquelin Hana</h5>
+            <a href="contact.html" style="color:white" >Contact us</a>
+        </div>
+</body>
+</html>
