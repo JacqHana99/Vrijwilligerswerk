@@ -5,14 +5,14 @@ body {
   background-size: cover;
 }
 .header {
-  padding: 90px;
+  padding: 35px;
   text-align: center;
-  background: url('Pages-6-attachment1_vrijwilligerswerk1-1600x5021.jpg');
-  color: black;
-  font-size: 15px ;
-  background-repeat: no-repeat;
+  background: url('v.png'), lightpink;
+  color: white;
+  font-size: 15px 15px;
+  background-repeat: no-repeat no-repeat;
   background-attachment: fixed fixed;
-  background-size: 100%;
+  background-size: 300px 150px;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -56,6 +56,6 @@ body {
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: 0% 0%;
-  color: black;
+  color: white;
   text-align: center;
 }
