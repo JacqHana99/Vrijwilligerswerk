@@ -109,7 +109,7 @@ p {
   width: 100%;
   background-color: lightpink;
   background-repeat: repeat;
-  background-attachment: local;
+  background-attachment: scroll;
   background-position: 0% 0%;
   color: white;
   text-align: center;
