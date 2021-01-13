@@ -40,7 +40,12 @@ body {
   padding: 0 18px;
   display: none;
   overflow: hidden;
+  border: none;
+  outline: none;
   background-color: #f1f1f1;
+  width: 85%;
+  font-size: 15px;
+  margin:auto;
 }
 .footer {
   position: fixed;
