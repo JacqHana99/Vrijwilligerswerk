@@ -117,7 +117,7 @@ p {
   width: 100%;
   background-color:  rgb(199, 232, 241);
   background-repeat: repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: 0% 0%;
   color: rgb(128, 127, 127);
   text-align: center;
