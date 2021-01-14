@@ -105,14 +105,19 @@ p {
   padding: 10px;
 }
 
+#page {
+  margin-bottom: 100px;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  right: 0;
   width: 100%;
   background-color:  rgb(199, 232, 241);
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: 0% 0%;
   color: rgb(128, 127, 127);
   text-align: center;
