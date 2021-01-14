@@ -10,7 +10,7 @@ body {
   padding: 35px;
   text-align: center;
   background: rgb(199, 232, 241);
-  color: white;
+  color: rgb(128, 127, 127);
   font-size: 15px 15px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -45,7 +45,7 @@ p {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: inherit;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,13 +55,13 @@ p {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(128, 127, 127);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: rgb(216, 235, 252);
-  color: white;
+  color: black;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -114,7 +114,7 @@ p {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: 0% 0%;
-  color: white;
+  color: rgb(128, 127, 127);
   text-align: center;
   font-family: cursive;
 }
