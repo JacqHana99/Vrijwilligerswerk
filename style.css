@@ -1,6 +1,6 @@
 body {
   background: #f5f8fa;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
   margin:auto;
@@ -105,20 +105,6 @@ p {
   padding: 10px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 0px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  overflow: auto;
-}
-
 .footer {
   position: fixed;
   left: 0;
@@ -126,7 +112,7 @@ p {
   width: 100%;
   background-color:  rgb(199, 232, 241);
   background-repeat: repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: 0% 0%;
   color: white;
   text-align: center;
